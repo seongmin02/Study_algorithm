@@ -1,0 +1,7 @@
+num=int(input())
+result =list(map(int, input().split()))
+result_sort = set(result)
+result_sort = sorted(result_sort)
+
+for i in range(len(result)):
+    print(result_sort.index(result[i]), end=" ")
